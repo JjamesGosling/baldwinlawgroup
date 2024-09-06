@@ -37,6 +37,7 @@ const CustomSheetClose = (props: any) => {
 
 const Sidebar = ({ isScrolled }: any) => {
   return (
+    <>
     <Sheet>
       <SheetTrigger asChild>
         <FontAwesomeIcon
@@ -161,6 +162,7 @@ const Sidebar = ({ isScrolled }: any) => {
         </div>
       </SheetContent>
     </Sheet>
+    </>
   );
 };
 export default Sidebar;
