@@ -49,7 +49,7 @@ law firms in California
           <div className="flex w-full relative mx-auto max-w-xl min-h-[250px] sm:min-h-[350px] order-1 lg:order-2">
             <div className="flex w-full whitespace-nowrap relative">
               <Image
-                src="/images/hero/image-22.jpg"
+                src="/images/about/baldwin-mader-law-group-mission.webp"
                 alt="about"
                 className="h-full w-full min-h-[200px]"
                 imageClassName="object-cover"
