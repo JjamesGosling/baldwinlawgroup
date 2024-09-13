@@ -15,7 +15,7 @@ import Image from '../image';
 import Sidebar from './Sidebar';
 import { GET_MENUS } from '@/api/queries';
 
-const Header = ({ topHeader = true, menus }: { topHeader?: boolean; menus: any }) => {
+const Header = ({ topHeader = true }: { topHeader?: boolean;}) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const router = useRouter();
 // console.log(menus);
