@@ -72,12 +72,13 @@ const Sidebar = ({ isScrolled }: any) => {
           {navigations.map((item) => (
             <>
             {item.id !== 'securities-litigation-attorney' && 
-            item.id !=="civil-litigation-attorney" && 
-            item.id !=="hedge-fund-compliance" && 
-            item.id !=="ponzi-scheme-law-firm" && 
-            item.id !=="broker-misconduct-lawyers" && 
-            item.id !=="law-firm-regulatory-compliance" && 
-            item.id !=="law-firm-regulatory-compliance" && 
+            item.id !=="civil-litigation-attorney"        && 
+            item.id !=="hedge-fund-compliance"            && 
+            item.id !=="ponzi-scheme-law-firm"            && 
+            item.id !=="broker-misconduct-lawyers"        && 
+            item.id !=="law-firm-regulatory-compliance"   && 
+            item.id !=="law-firm-regulatory-compliance"   && 
+            item.id !=="investment-fraud-lawyer"          && 
             (
            <Link
            key={item.id}
@@ -148,7 +149,7 @@ const Sidebar = ({ isScrolled }: any) => {
           <div className="flex gap-2">
             {socialLinks.map((item) => (
               <Link
-                key={item.name}
+                key={item.id}
                 href={item.href}
                 className="text-sm leading-6 text-gray-600 hover:text-gray-900 flex items-start gap-2"
                 target="_blank" rel='noreferrer'>

@@ -7,7 +7,7 @@ const Cta = () => {
       <div id="cta" className="">
         <div className="relative isolate overflow-hidden">
           <Image
-            src="/images/cta/image-5.jpg"
+            src="/images/cta/journey.jpg"
             className="!absolute h-full inset-0"
             imageClassName="object-cover object-bottom"
             alt="cta-logo"

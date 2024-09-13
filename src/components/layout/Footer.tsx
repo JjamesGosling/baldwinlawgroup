@@ -18,7 +18,7 @@ const Footer = () => {
       </h2>
 
       <div className="container">
-        <div className="xl:flex grid grid-cols-2 justify-between pt-16 pb-8 text-white gap-12">
+        <div className="xl:flex grid grid-cols-3 justify-between pt-16 pb-8 text-white gap-12">
           <div className="sm:max-w-xs col-span-2 xl:max-w-sm flex flex-col">
             <Link href="/" className={"py-2 text-white font-bold uppercase"}>
               <Image
@@ -52,6 +52,49 @@ const Footer = () => {
                   <Link href={item.href}>{item.title}</Link>
                 </li>
               ))}
+            </ul>
+          </div>
+          <div className="col-span-2 sm:col-span-1 sm:max-w-xs xl:max-w-sm">
+            <p className=" uppercase text-xl mb-5 font-semibold text-white">
+              Services
+            </p>
+            <ul className="grid grid-cols-2 sm:grid-cols-1 gap-x-14">
+              
+              <li className="mb-4 text-gray-300 linkHover text-base hover:text-primary transition-colors duration-300">
+                <a href="/securities-litigation-attorney">
+                  Securities Litigation Attorney
+                </a>
+              </li>
+              <li className="mb-4 text-gray-300 linkHover text-base hover:text-primary transition-colors duration-300">
+                <a href="/civil-litigation-attorney">
+                  Civil Litigation Attorney
+                </a>
+              </li>
+              <li className="mb-4 text-gray-300 linkHover text-base hover:text-primary transition-colors duration-300">
+                <a href="/hedge-fund-compliance">Hedge Fund Compliance</a>
+              </li>
+              <li className="mb-4 text-gray-300 linkHover text-base hover:text-primary transition-colors duration-300">
+                <a href="/ponzi-scheme-law-firm">Ponzi Scheme Law Firm</a>
+              </li>
+              <li className="mb-4 text-gray-300 linkHover text-base hover:text-primary transition-colors duration-300">
+                <a href="/broker-misconduct-lawyers">
+                  Broker Misconduct Lawyers
+                </a>
+              </li>
+              <li className="mb-4 text-gray-300 linkHover text-base hover:text-primary transition-colors duration-300">
+                <a href="/investment-fraud-lawyer">Investment Fraud Lawyer</a>
+              </li>
+              <li className="mb-4 text-gray-300 linkHover text-base hover:text-primary transition-colors duration-300">
+                <a href="/law-firm-regulatory-compliance">
+                  Law Firm Regulatory Compliance
+                </a>
+              </li>
+              <li className="mb-4 text-gray-300 linkHover text-base hover:text-primary transition-colors duration-300">
+                <a href="/investment-fraud-lawyer">
+                Investment Fraud Lawyer
+                </a>
+              </li>
+             
             </ul>
           </div>
 

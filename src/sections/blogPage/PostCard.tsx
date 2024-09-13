@@ -16,9 +16,11 @@ const PostCard = ({
   date,
   featuredImage,
   id,
+  uri,
   showDescription,
   content,
 }: any) => {
+  // console.log(featuredImage);
   return (
     <motion.article
       key={index}
@@ -27,7 +29,7 @@ const PostCard = ({
       <Image
         src={featuredImage?.node?.sourceUrl || '/images/no-image.jpg'}
         alt={`${title}-image`}
-        className="max-h-[300px] h-[200px] sm:h-[250px] lg:h-[300px] overflow-hidden w-full"
+          className="overflow-hidden w-full max-w-full h-full min-h-[220px]"
         imageClassName="object-cover transition-all duration-500 group-hover:scale-[104%]"
       />
 
@@ -35,6 +37,7 @@ const PostCard = ({
         <div className="flex flex-wrap items-center gap-y-1 overflow-hidden text-sm leading-6">
           <time dateTime={date} className="mr-8">
             {formatDate(date)}
+            {date}
           </time>
         </div>
         <h3 className="mt-3 font-semibold text-black mb-6 text-base sm:text-lg md:text-xl !leading-[120%]">

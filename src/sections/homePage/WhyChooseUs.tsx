@@ -22,7 +22,7 @@ const WhyChooseUs = () => {
           imageClassName="object-cover object-bottom"
           style={{ scale: distance }}
           alt="cta-logo"
-          ref={ref}
+         
         />
       </div>
       <div className="absolute left-0 top-0 bottom-0 z-10 w-full bg-gradient-to-br from-[rgba(0,0,0,0.65)] via-[rgba(0,0,0,0.4)] to-transparent" />

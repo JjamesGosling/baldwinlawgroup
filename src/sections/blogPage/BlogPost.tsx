@@ -46,7 +46,7 @@ const BlogPost = ({ post, otherPosts }: any) => {
                     post?.featuredImage?.node?.sourceUrl ||
                     '/images/no-image.jpg'
                   }
-                  className="w-full h-full object-cover transition-all !duration-300 group-hover:scale-[102%]"
+                  className="w-full max-w-full h-full object-covers transition-all !duration-300 group-hover:scale-[102%]"
                   alt={`blog-background`}
                   fill={true}
                 />

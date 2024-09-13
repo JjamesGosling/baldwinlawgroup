@@ -54,7 +54,7 @@ const BlogList = ({ posts, showItem = 10, showPagination = true }: any) => {
     setCurrentPage(item);
     scrollToTop();
   };
-
+// console.log(posts)
   return (
     <>
       <PageHead pageName="Blog" title="Blog" hasBreadCrumb />
@@ -70,7 +70,9 @@ const BlogList = ({ posts, showItem = 10, showPagination = true }: any) => {
             viewport={{ once: true, amount: 0.1 }}
           >
             {getPaginatedProducts.map((item: any, index: number) => (
-              <PostCard key={index} index={index} {...item} showDescription />
+              <>
+              <PostCard key={index} index={index} {...item.node} showDescription />
+              </>
             ))}
           </motion.div>
           {showPagination && (

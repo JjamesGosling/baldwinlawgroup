@@ -32,8 +32,7 @@ const PageHead = ({
         )}
       >
         <Image
-          src={"/images/hero/image-1.png"}
-          // src={"/images/hero/image-13.png"}
+          src={"/images/hero/hero-slide-01.webp"}
           alt="bg-hero"
           className=" !absolute inset-0 -z-10 w-full"
           imageClassName="object-cover object-center"

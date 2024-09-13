@@ -3,7 +3,7 @@ import { faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons";
 export default [
   {
     name: "Facebook",
-    href: "https://m.facebook.com/p/Baldwin-Mader-Law-Group-100070240384711",
+    href: "https://facebook.com/Baldwin-Mader-Law-Group-100070240384711/",
     icon: faFacebook,
   },
   {

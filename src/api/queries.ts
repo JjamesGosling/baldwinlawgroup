@@ -48,21 +48,25 @@ export const GET_RECENT_BLOG_POSTS = `
 `;
 
 export const GET_BLOG_POSTS = `
-  query blogPosts {
-    posts(first: 1000) {
-      nodes {
+ query blogPosts {
+  posts(first: 1000) {
+    edges {
+      node {
         id
+        title
+        excerpt
+        content,
+         uri
+        date
         featuredImage {
           node {
             sourceUrl
           }
         }
-        title
-        content
-        date
       }
     }
   }
+}
 `;
 
 export const GET_FIRST_3_BLOGS = `
@@ -81,4 +85,26 @@ export const GET_FIRST_3_BLOGS = `
       }
     }
   }
+`;
+export const GET_MENUS = `
+  query getMenu {
+  menus {
+    edges {
+      node {
+        id
+        menuId
+        name
+        slug
+        locations
+        menuItems {
+          nodes {
+            id
+            label
+            url
+          }
+        }
+      }
+    }
+  }
+}
 `;
