@@ -167,44 +167,5 @@ const Header = ({ topHeader = true, menus }: { topHeader?: boolean; menus: any }
 };
 
 export default Header;
-export async function getStaticProps(): Promise<{
-  props: any;
-  revalidate: number;
-}> {
-  try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        query: GET_MENUS,
-      }),
-    });
 
-    if (!response.ok) {
-      throw new Error('Failed to fetch data from the API');
-    }
-
-    const data = await response.json();
-
-    // Log the data before returning
-    console.log('Fetched data:', data);
-
-    return {
-      props: {
-        menus: data || [],
-      },
-      revalidate: 1,
-    };
-  } catch (error) {
-    console.error('Error fetching data:', error);
-    return {
-      props: {
-        menus: [],
-      },
-      revalidate: 1,
-    };
-  }
-}
 
