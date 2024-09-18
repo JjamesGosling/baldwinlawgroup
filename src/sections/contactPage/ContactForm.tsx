@@ -53,6 +53,14 @@ const ContactInner = () => {
         process.env.NEXT_PUBLIC_CONTACT_FORM_URL!,
         formData
       );
+      // Send the form data to the Next.js API route
+    const res = await fetch('https://backend.baldwinlawgroup.com/wp-json/custom/api/submit-form', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData),
+    });
 
       if (response.status === 200) {
         toast({
@@ -118,7 +126,7 @@ const ContactInner = () => {
           {...register("message")}
           error={errors.message}
           textarea
-          rows={5}
+          rows={3}
         />{" "}
         <button type="submit" className="btn btn-primary formSubmit w-fit min-w-[10rem]">
           {isLoading ? "Submit..." : "Submit"}

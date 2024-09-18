@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import ContactForm from "../contactPage/ContactForm";
+import Title from "@/components/title";
 
 const heroSliderImages = [
   // "/images/hero/image-20.jpg",
@@ -68,9 +70,10 @@ const Hero = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-
-        <div className="container z-10 relative h-full flex flex-col justify-center flex-1">
-          <div className="max-w-4xl mt-[60px]">
+        <div className="container z-10 mt-[60px] md:mt-0 lg:mt-0 relative h-full flex flex-col justify-center flex-1">
+        <div className=" grid md:grid-cols-2 items-center md:gap-4 gap-8 font-[sans-serif] mx-auto">
+      <div className="">
+      <div className="max-w-4xl mt-[60px]">
             <div className="text-center sm:text-left max-w-xl">
               {/* <motion.p
                 className="text-white tracking-widest text-lg"
@@ -127,7 +130,28 @@ const Hero = () => {
               </motion.div> */}
             </div>
           </div>
-        </div>
+      </div>
+      <div className="md:h-[470px] md:ml-auto md:mt-[60px]">
+      <motion.div
+            className="lg:col-span-5 py-6 px-4 sm:p-8 bg-white bg-opacity-80 shadow-lg border border-gray-200 max-w-full md:max-w-md"
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+            exit="exit"
+            variants={motionVariants.fadeUp(40)}
+            transition={{ duration: 0.5, delay: 0.1 }}
+          >
+            <Title title="Get in touch" />
+      <ContactForm />
+      </motion.div>
+      
+      </div>
+    </div>
+    </div>
+        {/* <div className="container z-10 relative h-full flex flex-col justify-center flex-1">
+         
+          
+        </div> */}
       </div>
     </section>
   );

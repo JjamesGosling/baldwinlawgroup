@@ -48,12 +48,8 @@ export default [
         id: "law-firm-regulatory-compliance",
         title: "Law Firm Regulatory Compliance",
         href: "/law-firm-regulatory-compliance",
-      },
-      {
-          id: "current-investigations",
-          title: "Current Investigations",
-          href: "/current-investigations",
-        },
+      }
+     
     ],
   },
   {

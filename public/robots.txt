@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
+Allow: 
 
-Sitemap: https://www.baldwinlawgroup.com/sitemap.xml
+Sitemap: https://baldwinlawgroup.com/sitemap.xml

@@ -9,16 +9,16 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-
+import ContactForm from "../sections/contactPage/ContactForm";
 const heroSliderImages = [
   // "/images/hero/image-20.jpg",
   // "/images/hero/image-1.png",
   // "/images/hero/test-4.jpg",
-  "/images/hero/image-14.jpg",
+  // "/images/hero/image-14.jpg",
   // "/images/hero/image-18.jpg",
   // "/images/hero/image-19.jpg",
-  "/images/hero/image-21.jpg",
-  "/images/hero/image-22.jpg",
+  "/images/hero/hero-slide-01.webp",
+  // "/images/hero/image-22.jpg",
 ];
 export default function SecuritiesLitigationAttorney() {
   const [activeSlide, setActiveSlide] = useState(-1);
@@ -74,8 +74,10 @@ export default function SecuritiesLitigationAttorney() {
           ))}
         </Swiper>
 
-        <div className="container z-10 relative h-full flex flex-col justify-center flex-1">
-          <div className="max-w-4xl mt-[60px]">
+        <div className="container z-10 mt-[60px] md:mt-0 lg:mt-0 relative h-full flex flex-col justify-center flex-1">
+        <div className=" grid md:grid-cols-2 items-center md:gap-4 gap-8 font-[sans-serif] mx-auto">
+      <div className="">
+      <div className="max-w-4xl mt-[60px]">
             <div className="text-center sm:text-left max-w-xl">
 
               <motion.h1
@@ -109,7 +111,24 @@ institutions
              
             </div>
           </div>
-        </div>
+      </div>
+      <div className="md:h-[470px] md:ml-auto md:mt-[60px]">
+      <motion.div
+            className="lg:col-span-5 py-6 px-4 sm:p-8 bg-white bg-opacity-80 shadow-lg border border-gray-200 max-w-full md:max-w-md"
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+            exit="exit"
+            variants={motionVariants.fadeUp(40)}
+            transition={{ duration: 0.5, delay: 0.1 }}
+          >
+            <Title title="Get in touch" />
+      <ContactForm />
+      </motion.div>
+      
+      </div>
+    </div>
+    </div>
       </div>
     </section>
       <section className="padding-y">
@@ -344,7 +363,7 @@ can be confident that you have skilled and experienced personnel on your side.
           <div className="flex w-full relative mx-auto max-w-xl min-h-[250px] sm:min-h-[350px] order-1 lg:order-2">
             <div className="flex w-full whitespace-nowrap relative">
               <Image
-                src="/images/hero/image-22.jpg"
+                src="/images/testimonials.webp"
                 alt="about"
                 className="h-full w-full min-h-[200px]"
                 imageClassName="object-cover"
