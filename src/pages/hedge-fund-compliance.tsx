@@ -15,11 +15,12 @@ const heroSliderImages = [
   // "/images/hero/image-20.jpg",
   // "/images/hero/image-1.png",
   // "/images/hero/test-4.jpg",
-  // "/images/hero/image-14.jpg",
+  "/images/hero/image-14.jpg",
   // "/images/hero/image-18.jpg",
   // "/images/hero/image-19.jpg",
-  // "/images/hero/image-21.jpg",
-  "/images/hero/hero-slide-02.webp",
+  "/images/hero/image-21.jpg",
+  "/images/hero/image-22.jpg",
+  // "/images/hero/hero-slide-02.webp",
 ];
 export default function HedgeFundCompliance() {
   const [activeSlide, setActiveSlide] = useState(-1);
@@ -39,8 +40,8 @@ export default function HedgeFundCompliance() {
   };
   return (
     <Layout>
-      <SEO title={`Hedge Fund Compliance by Baldwin Mader Law Group | ${INFO.companyName}`}
-        description={`Seeking seasoned legal counsel? Baldwin Law Group boasts expert securities litigation attorneys dedicated to safeguarding your investments. Trust our experienced team to navigate complex legal landscapes with precision and integrity. Contact us today for comprehensive representation.`}
+      <SEO title={`Top Hedge Fund Law Firms in California | ${INFO.companyName}`}
+        description={`Need expert hedge fund attorneys in California? Baldwin Mader Law Group specializes in hedge fund legal services. Get trusted legal guidance for your hedge fund today!`}
       />
        <section className="relative z-10 -mt-[128px]">
       <div className="relative isolate overflow-hidden min-h-[calc(100vh+10px)] flex flex-col">
@@ -258,7 +259,7 @@ export default function HedgeFundCompliance() {
           <div className="flex w-full relative mx-auto max-w-xl min-h-[250px] sm:min-h-[350px] order-1 lg:order-2">
             <div className="flex w-full whitespace-nowrap relative">
               <Image
-                src="/images/testimonials.webp"
+                src="/images/hero/image-22.jpg"
                 alt="about"
                 className="h-full w-full min-h-[200px]"
                 imageClassName="object-cover"

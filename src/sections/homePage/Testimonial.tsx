@@ -13,7 +13,7 @@ const Testimonial = () => {
         <div className="relative isolate h-[30rem]">
           <div className="absolute inset-0 clip testimonial-background-container h-full w-full">
             <Image
-              src="/images/cta/image-2.jpg"
+               src="/images/cta/image-2.jpg"
               className="!fixed w-full h-full top-0 left-0"
               imageClassName="object-cover object-bottom"
               alt="cta-logo"

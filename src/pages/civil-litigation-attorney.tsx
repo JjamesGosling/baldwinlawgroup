@@ -11,14 +11,15 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import ContactForm from "../sections/contactPage/ContactForm";
 const heroSliderImages = [
-  // "/images/hero/image-20.jpg",
+ // "/images/hero/image-20.jpg",
   // "/images/hero/image-1.png",
   // "/images/hero/test-4.jpg",
-  // "/images/hero/image-14.jpg",
+  "/images/hero/image-14.jpg",
   // "/images/hero/image-18.jpg",
   // "/images/hero/image-19.jpg",
-  // "/images/hero/image-21.jpg",
-  "/images/hero/hero-slide-03.webp",
+  "/images/hero/image-21.jpg",
+  "/images/hero/image-22.jpg",
+  // "/images/hero/hero-slide-03.webp",
 ];
 export default function CivilLitigationAttorney() {
   const [activeSlide, setActiveSlide] = useState(-1);
@@ -38,8 +39,8 @@ export default function CivilLitigationAttorney() {
   };
   return (
     <Layout>
-      <SEO title={`Civil Litigation Lawyer | ${INFO.companyName}`}
-        description={`Seeking seasoned legal counsel? Baldwin Law Group boasts expert securities litigation attorneys dedicated to safeguarding your investments. Trust our experienced team to navigate complex legal landscapes with precision and integrity. Contact us today for comprehensive representation.`}
+      <SEO title={`Civil Litigation Lawyer in California | ${INFO.companyName}`}
+        description={`Need a business or civil litigation lawyer? Baldwin Mader Law Group offers expert legal services in California with experienced attorneys specializing in strong legal representation.`}
       />
        <section className="relative z-10 -mt-[128px]">
       <div className="relative isolate overflow-hidden min-h-[calc(100vh+10px)] flex flex-col">
@@ -314,7 +315,7 @@ export default function CivilLitigationAttorney() {
           <div className="flex w-full relative mx-auto max-w-xl min-h-[250px] sm:min-h-[350px] order-1 lg:order-2">
             <div className="flex w-full whitespace-nowrap relative">
               <Image
-                src="/images/testimonials.webp"
+                src="/images/hero/image-22.jpg"
                 alt="about"
                 className="h-full w-full min-h-[200px]"
                 imageClassName="object-cover"
@@ -353,7 +354,7 @@ export default function CivilLitigationAttorney() {
           <div className="flex w-full relative mx-auto max-w-xl min-h-[250px] sm:min-h-[350px] order-1 lg:order-1">
             <div className="flex w-full whitespace-nowrap relative">
               <Image
-                src="/images/hero/hero-slide-02.webp"
+               src="/images/hero/image-21.jpg"
                 alt="about"
                 className="h-full w-full min-h-[200px]"
                 imageClassName="object-cover"

@@ -14,11 +14,12 @@ const heroSliderImages = [
   // "/images/hero/image-20.jpg",
   // "/images/hero/image-1.png",
   // "/images/hero/test-4.jpg",
-  // "/images/hero/image-14.jpg",
+  "/images/hero/image-14.jpg",
   // "/images/hero/image-18.jpg",
   // "/images/hero/image-19.jpg",
-  // "/images/hero/image-21.jpg",
-  "/images/hero/hero-slide-01.webp",
+  "/images/hero/image-21.jpg",
+  "/images/hero/image-22.jpg",
+  // "/images/hero/hero-slide-01.webp",
 ];
 export default function LawFirmRegulatoryCompliance() {
   const [activeSlide, setActiveSlide] = useState(-1);
@@ -272,7 +273,7 @@ export default function LawFirmRegulatoryCompliance() {
           <div className="flex w-full relative mx-auto max-w-xl min-h-[250px] sm:min-h-[350px] order-1 lg:order-2">
             <div className="flex w-full whitespace-nowrap relative">
               <Image
-                src="/images/about/baldwin-mader-law-group-mission.webp"
+                 src="/images/hero/image-21.jpg"
                 alt="about"
                 className="h-full w-full min-h-[200px]"
                 imageClassName="object-cover"

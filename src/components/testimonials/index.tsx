@@ -15,7 +15,7 @@ const Testimonials = () => {
     <section className="grid lg:grid-cols-2 overflow-hidden">
       <div className="max-lg:hidden">
         <Image
-          src="/images/testimonials.webp"
+           src="/images/about/image-11.jpg"
           className="h-[40rem] w-full"
           imageClassName="object-cover"
           alt="testimonials"

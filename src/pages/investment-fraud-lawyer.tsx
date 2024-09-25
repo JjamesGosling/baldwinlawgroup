@@ -10,45 +10,17 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import ContactForm from "../sections/contactPage/ContactForm";
- <div className="max-w-4xl mt-[60px]">
-            <div className="text-center sm:text-left max-w-xl">
 
-              <motion.h1
-                className="text-gray-200 mt-4 text-[42px]"
-                initial="initial"
-                whileInView="animate"
-                viewport={{ once: true }}
-                exit="exit"
-                variants={motionVariants.fadeUp(40)}
-                transition={{ duration: 0.5, delay: 0.1 }}
-              >
-               Investment Fraud Attorneys –  Protecting Your Investments from Fraud
-              </motion.h1>
-
-              <motion.p
-                className="text-gray-200 mt-4 text-lg"
-                initial="initial"
-                whileInView="animate"
-                viewport={{ once: true }}
-                exit="exit"
-                variants={motionVariants.fadeUp(40)}
-                transition={{ duration: 0.5, delay: 0.2 }}
-              >
-            Investing in your future is a significant decision. Unfortunately, not everyone operates with integrity in the financial world. If you suspect you have been the victim of investment fraud or financial misconduct, Baldwin Mader Law Group is here to help. Our dedicated California investment fraud lawyer team has extensive experience holding perpetrators accountable and recovering your losses.
-              </motion.p>
-
-             
-            </div>
-          </div>
 const heroSliderImages = [
-  // "/images/hero/image-20.jpg",
+    // "/images/hero/image-20.jpg",
   // "/images/hero/image-1.png",
   // "/images/hero/test-4.jpg",
-  // "/images/hero/image-14.jpg",
+  "/images/hero/image-14.jpg",
   // "/images/hero/image-18.jpg",
   // "/images/hero/image-19.jpg",
-  // "/images/hero/image-21.jpg",
-  "/images/hero/hero-slide-01.webp",
+  "/images/hero/image-21.jpg",
+  "/images/hero/image-22.jpg",
+  // "/images/hero/hero-slide-01.webp",
 ];
 export default function InvestmentFraudLawyer() {
   const [activeSlide, setActiveSlide] = useState(-1);
@@ -68,8 +40,9 @@ export default function InvestmentFraudLawyer() {
   };
   return (
     <Layout>
-      <SEO title={`Investment Fraud Attorneys ${INFO.companyName}`}
-        description={`Seeking seasoned legal counsel? Baldwin Law Group boasts expert securities litigation attorneys dedicated to safeguarding your investments. Trust our experienced team to navigate complex legal landscapes with precision and integrity. Contact us today for comprehensive representation.`}
+      <SEO title={`Investment Fraud Lawyer California | ${INFO.companyName}`}
+        description={`Need a local investment fraud lawyer in California? Baldwin Mader Law Group offers expert legal assistance to protect you from fraud. Contact our experienced attorneys for personalized support.
+`}
       />
        <section className="relative z-10 -mt-[128px]">
       <div className="relative isolate overflow-hidden min-h-[calc(100vh+10px)] flex flex-col">
@@ -289,7 +262,7 @@ Rest assured, throughout the process, we will treat you with empathy and respect
           <div className="flex w-full relative mx-auto max-w-xl min-h-[250px] sm:min-h-[350px] order-1 lg:order-2">
             <div className="flex w-full whitespace-nowrap relative">
               <Image
-                src="/images/about/baldwin-mader-law-group-mission.webp"
+                  src="/images/hero/image-21.jpg"
                 alt="about"
                 className="h-full w-full min-h-[200px]"
                 imageClassName="object-cover"

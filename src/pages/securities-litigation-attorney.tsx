@@ -14,11 +14,12 @@ const heroSliderImages = [
   // "/images/hero/image-20.jpg",
   // "/images/hero/image-1.png",
   // "/images/hero/test-4.jpg",
-  // "/images/hero/image-14.jpg",
+  "/images/hero/image-14.jpg",
   // "/images/hero/image-18.jpg",
   // "/images/hero/image-19.jpg",
-  "/images/hero/hero-slide-01.webp",
-  // "/images/hero/image-22.jpg",
+  "/images/hero/image-21.jpg",
+  "/images/hero/image-22.jpg",
+  // "/images/hero/hero-slide-01.webp",
 ];
 export default function SecuritiesLitigationAttorney() {
   const [activeSlide, setActiveSlide] = useState(-1);
@@ -38,8 +39,9 @@ export default function SecuritiesLitigationAttorney() {
   };
   return (
     <Layout>
-      <SEO title={`Securities Litigation Attorney | ${INFO.companyName}`}
-        description={`Seeking seasoned legal counsel? Baldwin Law Group boasts expert securities litigation attorneys dedicated to safeguarding your investments. Trust our experienced team to navigate complex legal landscapes with precision and integrity. Contact us today for comprehensive representation.`}
+      <SEO title={`Securities Litigation & Fraud Attorney California
+ | ${INFO.companyName}`}
+        description={`Need a trusted securities litigation or fraud attorney in California? Baldwin Mader Law Group specializes in expert legal representation. Contact us today....`}
       />
        <section className="relative z-10 -mt-[128px]">
       <div className="relative isolate overflow-hidden min-h-[calc(100vh+10px)] flex flex-col">
@@ -363,7 +365,7 @@ can be confident that you have skilled and experienced personnel on your side.
           <div className="flex w-full relative mx-auto max-w-xl min-h-[250px] sm:min-h-[350px] order-1 lg:order-2">
             <div className="flex w-full whitespace-nowrap relative">
               <Image
-                src="/images/testimonials.webp"
+               src="/images/hero/image-22.jpg"
                 alt="about"
                 className="h-full w-full min-h-[200px]"
                 imageClassName="object-cover"

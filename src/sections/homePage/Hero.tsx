@@ -4,21 +4,19 @@ import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import ContactForm from "../contactPage/ContactForm";
-import Title from "@/components/title";
 
 const heroSliderImages = [
-  // "/images/hero/image-20.jpg",
-  // "/images/hero/image-1.png",
-  // "/images/hero/test-4.jpg",
+  "/images/hero/image-20.jpg",
+  "/images/hero/image-1.png",
+  "/images/hero/test-4.jpg",
   // "/images/hero/image-14.jpg",
-  // "/images/hero/image-18.jpg",
-  // "/images/hero/image-19.jpg",
+  "/images/hero/image-18.jpg",
+  "/images/hero/image-19.jpg",
   // "/images/hero/image-21.jpg",
   // "/images/hero/image-22.jpg",
-  "/images/hero/hero-slide-01.webp",
-  "/images/hero/hero-slide-02.webp",
-  "/images/hero/hero-slide-03.webp",
+  // "/images/hero/hero-slide-01.webp",
+  // "/images/hero/hero-slide-02.webp",
+  // "/images/hero/hero-slide-03.webp",
 ];
 const Hero = () => {
   const [activeSlide, setActiveSlide] = useState(-1);
@@ -131,21 +129,7 @@ const Hero = () => {
             </div>
           </div>
       </div>
-      <div className="md:h-[470px] md:ml-auto md:mt-[60px]">
-      <motion.div
-            className="lg:col-span-5 py-6 px-4 sm:p-8 bg-white bg-opacity-80 shadow-lg border border-gray-200 max-w-full md:max-w-md"
-            initial="initial"
-            whileInView="animate"
-            viewport={{ once: true }}
-            exit="exit"
-            variants={motionVariants.fadeUp(40)}
-            transition={{ duration: 0.5, delay: 0.1 }}
-          >
-            <Title title="Get in touch" />
-      <ContactForm />
-      </motion.div>
       
-      </div>
     </div>
     </div>
         {/* <div className="container z-10 relative h-full flex flex-col justify-center flex-1">

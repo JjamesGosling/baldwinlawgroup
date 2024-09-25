@@ -17,7 +17,7 @@ const WhyChooseUs = () => {
     <section className="relative flex flex-col py-40">
       <div className="overflow-hidden ">
         <Image
-          src="/images/cta/why-choose-us.webp"
+          src="/images/cta/image-6.jpg"
           className="!absolute h-full inset-0 overflow-hidden"
           imageClassName="object-cover object-bottom"
           style={{ scale: distance }}
