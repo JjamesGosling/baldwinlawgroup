@@ -108,9 +108,7 @@ const Hero = () => {
                 variants={motionVariants.fadeUp(40)}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                70 Years of Collective Experience in Securities Litigation,
-                Investment Fraud, Ponzi Schemes, Whistleblowers Before the
-                Securities and Exchange Commission &amp; Elder Financial Fraud.
+               70 Years of Collective Experience in Securities Litigation, FINRA Arbitrations, Investment Fraud, Ponzi Schemes, Whistleblowers Before the Securities and Exchange Commission & Elder Financial Fraud
               </motion.p>
 
               {/* <motion.div
