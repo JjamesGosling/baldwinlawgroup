@@ -10,15 +10,15 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Image from '../image';
 import Sidebar from './Sidebar';
 import { GET_MENUS } from '@/api/queries';
 
-const Header = ({ topHeader = true }: { topHeader?: boolean;}) => {
+const Header = ({ topHeader = true }: { topHeader?: boolean; }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const router = useRouter();
-// console.log(menus);
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 40);
@@ -34,8 +34,7 @@ const Header = ({ topHeader = true }: { topHeader?: boolean;}) => {
   return (
     <>
       {topHeader && (
-        <div
-          className={`border-b-[1px] hidden lg:block py-3 lg:py-0 border-gray-100/20 bg-transparent w-full z-20 relative`}>
+        <div className={`border-b-[1px] hidden lg:block py-3 lg:py-0 border-gray-100/20 bg-transparent w-full z-20 relative`}>
           <div className="container flex items-center justify-between gap-4">
             <ul className="flex items-center gap-y-4 sm:gap-y-4 gap-x-10 sm:gap-x-10 flex-wrap h-[45px]">
               <li>
@@ -50,8 +49,7 @@ const Header = ({ topHeader = true }: { topHeader?: boolean;}) => {
                     />
                   </span>
                   <div className="flex flex-col">
-                    <p
-                      className={`text-white text-base group-hover:text-primary transition-colors duration-300 leading-tight`}>
+                    <p className={`text-white text-base group-hover:text-primary transition-colors duration-300 leading-tight`}>
                       {INFO.phone.replaceAll(')', '').replaceAll('(', '')}
                     </p>
                   </div>
@@ -70,8 +68,7 @@ const Header = ({ topHeader = true }: { topHeader?: boolean;}) => {
                     />
                   </span>
                   <div className="flex flex-col">
-                    <p
-                      className={`text-white text-base group-hover:text-primary transition-colors duration-300 leading-tight`}>
+                    <p className={`text-white text-base group-hover:text-primary transition-colors duration-300 leading-tight`}>
                       Email Us Here
                     </p>
                   </div>
@@ -103,7 +100,7 @@ const Header = ({ topHeader = true }: { topHeader?: boolean;}) => {
           )}>
           <nav className="container flex justify-between py-4 items-center">
             <div className="flex lg:flex-1">
-               <Link
+              <Link
                 href="/"
                 className={cn(
                   'py-2 text-white font-bold uppercase',
@@ -118,43 +115,61 @@ const Header = ({ topHeader = true }: { topHeader?: boolean;}) => {
               </Link>
             </div>
             <div className="hidden lg:flex items-center gap-x-8 xl:gap-x-8 mr-8">
-            <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-            {navigations.map((item) => (
-            <>
-              <li key={item.id} className="relative group py-3">
-           <Link
-           href={item.href}
-           className={cn(
-            'transition-all duration-300 text-md font-normal cursor-pointer hover:text-primary text-white',
-            isScrolled && 'text-black'
-          )}>
-           {item.title}
-         </Link>
-         {item.submenu && (
-        <ul className="absolute left-0 mt-3 -pt-2 hidden group-hover:block bg-white border border-gray-200 rounded shadow-lg w-48">
-          {item.submenu.map((subItem) => (
-            <li key={subItem.id}>
-              <Link
-                href={subItem.href}
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary"
-              >
-                {subItem.title}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      )}
-         </li>
-         
-          </>
-        ))}
-         <li className='relative group py-3'>
-         <Link href={"contact-us"} className={cn(
-            'transition-all duration-300 text-md font-bold rounded-full p-4 cursor-pointer border-2 border-white text-white hover:text-primary hover:border-primary ',
-            isScrolled && 'border-black text-black'
-          )}>Book A Consulatation</Link>
+              <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                {navigations.map((item) => (
+                  <React.Fragment key={item.id}>
+                    <li className="relative group py-3">
+                      <Link
+                        href={item.href}
+                        className={cn(
+                          'transition-all duration-300 text-md font-normal cursor-pointer hover:text-primary text-white',
+                          isScrolled && 'text-black'
+                        )}>
+                        {item.title}
+                      </Link>
+                      {item.submenu && (
+                        <ul className="absolute left-0 mt-3 -pt-2 hidden group-hover:block bg-white border border-gray-200 rounded shadow-lg w-48">
+                          {item.submenu.map((subItem) => (
+                            <li key={subItem.id}>
+                              <Link
+                                href={subItem.href}
+                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary"
+                              >
+                                {subItem.title}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
                     </li>
-            </ul>
+                    {/* Mobile Menu Submenu Direct Show */}
+                    {item.submenu && (
+                      <ul className="flex flex-col mt-2 lg:hidden">
+                        {item.submenu.map((subItem) => (
+                          <li key={subItem.id}>
+                            <Link
+                              href={subItem.href}
+                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary"
+                            >
+                              {subItem.title}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </React.Fragment>
+                ))}
+                <li className='relative group py-3'>
+                  <Link
+                    href={"contact-us"}
+                    className={cn(
+                      'transition-all duration-300 text-md font-bold rounded-full p-4 cursor-pointer border-2 border-white text-white hover:text-primary hover:border-primary ',
+                      isScrolled && 'border-black text-black'
+                    )}>
+                    Book A Consultation
+                  </Link>
+                </li>
+              </ul>
             </div>
             <div className="md:hidden sm:flex">
               <Sidebar isScrolled={isScrolled} />
@@ -167,5 +182,3 @@ const Header = ({ topHeader = true }: { topHeader?: boolean;}) => {
 };
 
 export default Header;
-
-

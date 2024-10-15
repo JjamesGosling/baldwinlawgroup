@@ -70,9 +70,9 @@ const Footer = () => {
                   Civil Litigation Attorney
                 </a>
               </li>
-              <li className="mb-4 text-gray-300 linkHover text-base hover:text-primary transition-colors duration-300">
+              {/* <li className="mb-4 text-gray-300 linkHover text-base hover:text-primary transition-colors duration-300">
                 <a href="/hedge-fund-compliance">Hedge Fund Compliance</a>
-              </li>
+              </li> */}
               <li className="mb-4 text-gray-300 linkHover text-base hover:text-primary transition-colors duration-300">
                 <a href="/ponzi-scheme-law-firm">Ponzi Scheme Law Firm</a>
               </li>
@@ -84,11 +84,11 @@ const Footer = () => {
               <li className="mb-4 text-gray-300 linkHover text-base hover:text-primary transition-colors duration-300">
                 <a href="/investment-fraud-lawyer">Investment Fraud Lawyer</a>
               </li>
-              <li className="mb-4 text-gray-300 linkHover text-base hover:text-primary transition-colors duration-300">
+              {/* <li className="mb-4 text-gray-300 linkHover text-base hover:text-primary transition-colors duration-300">
                 <a href="/law-firm-regulatory-compliance">
                   Law Firm Regulatory Compliance
                 </a>
-              </li>
+              </li> */}
               <li className="mb-4 text-gray-300 linkHover text-base hover:text-primary transition-colors duration-300">
                 <a href="/investment-fraud-lawyer">
                 Investment Fraud Lawyer
