@@ -25,11 +25,6 @@ export default [
         href: "/civil-litigation-attorney",
       },
       {
-        id: "hedge-fund-compliance",
-        title: "Hedge Fund Compliance",
-        href: "/hedge-fund-compliance",
-      },
-      {
         id: "ponzi-scheme-law-firm",
         title: "Ponzi Scheme Law Firm",
         href: "/ponzi-scheme-law-firm",
@@ -43,11 +38,6 @@ export default [
         id: "investment-fraud-lawyer",
         title: "Investment Fraud Lawyer",
         href: "/investment-fraud-lawyer",
-      },
-      {
-        id: "law-firm-regulatory-compliance",
-        title: "Law Firm Regulatory Compliance",
-        href: "/law-firm-regulatory-compliance",
       }
      
     ],

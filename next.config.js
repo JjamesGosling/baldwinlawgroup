@@ -13,6 +13,16 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: '/hedge-fund-compliance',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/law-firm-regulatory-compliance',
+        destination: '/',
+        permanent: true,
+      },
+      {
         source: '/Contact-Us.aspx',
         destination: '/contact-us',
         permanent: true,
