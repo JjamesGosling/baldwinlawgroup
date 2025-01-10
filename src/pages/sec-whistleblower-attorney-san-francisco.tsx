@@ -22,7 +22,7 @@ const heroSliderImages = [
   "/images/hero/image-22.jpg",
   // "/images/hero/hero-slide-01.webp",
 ];
-export default function investmentFraudLawyerOrangeCounty() {
+export default function SECWhistleBlowerAttorneySanFrancisco() {
   const [activeSlide, setActiveSlide] = useState(-1);
   const firstTime = useRef(true);
 
@@ -40,8 +40,8 @@ export default function investmentFraudLawyerOrangeCounty() {
   };
   return (
     <Layout>
-      <SEO title={`Trusted Investment, Securities & Stockbroker Fraud Lawyer  | ${INFO.companyName}`}
-        description={`Looking for an experienced investment fraud lawyer in Orange County? Baldwin Mader Law Group specializes in securities and stockbroker fraud cases. Contact us at 516 North Sepulveda Boulevard, Manhattan Beach, CA, for expert legal assistance in California.`}
+      <SEO title={`SEC Whistleblower Lawyer Los Angeles & San Francisco | ${INFO.companyName}`}
+        description={`Need an experienced SEC whistleblower lawyer in Los Angeles or San Francisco? Baldwin Mader Law Group offers expert securities whistleblower legal services in California. Visit us at 516 North Sepulveda Boulevard, Manhattan Beach, CA. Call now!`}
       />
        <section className="relative z-10 -mt-[128px]">
       <div className="relative isolate overflow-hidden min-h-[calc(100vh+10px)] flex flex-col">
@@ -91,7 +91,7 @@ export default function investmentFraudLawyerOrangeCounty() {
                 variants={motionVariants.fadeUp(40)}
                 transition={{ duration: 0.5, delay: 0.1 }}
               >
-             Investment Fraud Lawyer Orange County: Protecting Your Financial Future
+             SEC Whistleblower Lawyer in Los Angeles – Advocating for Whistleblowers in Securities Fraud Cases
               </motion.h1>
              
 
@@ -104,7 +104,7 @@ export default function investmentFraudLawyerOrangeCounty() {
                 variants={motionVariants.fadeUp(40)}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-          Investment fraud can have devastating effects on your financial stability. If you’ve suffered losses due to fraudulent investment schemes, hiring an experienced investment fraud lawyer in Orange County is essential. Investment fraud encompasses a wide range of misconduct, including Ponzi schemes, unauthorized trading, or misrepresentation of financial products. Victims of such schemes may lose their life savings, retirement funds, or valuable assets.<br/>
+         If you have insider knowledge of securities fraud or misconduct, stepping forward as a whistleblower can make a difference. Whether it involves market manipulation, insider trading, or accounting fraud, providing information to the Securities and Exchange Commission (SEC) can lead to substantial enforcement actions and even financial rewards for whistleblowers. 
           
            
               </motion.p>
@@ -136,8 +136,7 @@ export default function investmentFraudLawyerOrangeCounty() {
   <div className="py-8">
     <div className="mx-auto max-w-6xl text-center">
       <p className=" text-gray-500">
-      At Baldwin Law Group, we are dedicated to holding deceptive parties accountable. Our seasoned securities fraud lawyers in Orange County specialize in representing clients against brokers, financial advisors, and firms involved in unethical or illegal practices. Whether it's unsuitable investments or breaches of fiduciary duty, our team ensures you receive the justice you deserve.<br/>
-      If you suspect stockbroker misconduct, contact a stockbroker fraud lawyer in Orange County to assess your case and guide you through the recovery process.
+      At Baldwin Mader Law Group, we specialize in representing whistleblowers who expose fraudulent activity within the financial sector. Working with our experienced SEC whistleblower lawyer in Los Angeles ensures your claim is handled professionally and your rights are protected throughout the process. From filing claims to safeguarding against retaliation, our team offers comprehensive support, helping you handle the complexities of whistleblower cases while seeking justice and accountability.
       </p>
       
     </div>
@@ -151,20 +150,20 @@ export default function investmentFraudLawyerOrangeCounty() {
       <div className="bg-white">
   <div className="mx-auto max-w-2xl px-4 py-1 sm:px-6 sm:py-2 lg:max-w-7xl lg:px-8">
   <Title
-              title="Why Choose Baldwin Law Group?"
+              title="Why Choose Our Securities Whistleblower Lawyer Los Angeles?"
               className="text-center"
               center
             />
- <p className="mb-6 text-center">Selecting the right legal team is crucial for a successful outcome in fraud cases. Baldwin Law Group stands out due to our:</p>
+ <p className="mb-6 text-center">Baldwin Mader Law Group provides the expertise and support you need when filing a whistleblower claim. We’re committed to supporting whistleblowers who take a stand against corporate misconduct. Whether you’re in Los Angeles or San Francisco, our team is ready to help you make a difference while protecting your rights. Here’s why we stand out:</p>
     <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 lg:grid-cols-3 xl:gap-x-8 content-center justify-center">
       <div className="group relative">
       
         <div className="mt-4 flex">
           <div>
             <h3 className="text-sm text-gray-700">
-           Proven Expertise
+            Expertise in SEC Whistleblower Cases
             </h3>
-            <p className="mt-1 text-sm text-gray-500">Our attorneys have years of experience handling investment fraud and securities fraud cases</p>
+            <p className="mt-1 text-sm text-gray-500">Our attorneys have deep experience representing whistleblowers in complex securities fraud matters.</p>
           </div>
          
         </div>
@@ -174,9 +173,9 @@ export default function investmentFraudLawyerOrangeCounty() {
         <div className="mt-4 flex">
           <div>
             <h3 className="text-sm text-gray-700">
-            Client-Centered Approach 
+            Proven Track Record of Success 
             </h3>
-            <p className="mt-1 text-sm text-gray-500">We prioritize your needs, ensuring personalized legal strategies.</p>
+            <p className="mt-1 text-sm text-gray-500">We’ve helped clients secure substantial whistleblower awards for their actionable information.</p>
           </div>
          
         </div>
@@ -186,9 +185,9 @@ export default function investmentFraudLawyerOrangeCounty() {
         <div className="mt-4 flex">
           <div>
             <h3 className="text-sm text-gray-700">
-            Strong Track Record
+            Comprehensive Guidance
             </h3>
-            <p className="mt-1 text-sm text-gray-500">We've successfully recovered significant losses for clients</p>
+            <p className="mt-1 text-sm text-gray-500">From filing your claim to liaising with the SEC, we handle all aspects of your case.</p>
           </div>
          
         </div>
@@ -198,9 +197,9 @@ export default function investmentFraudLawyerOrangeCounty() {
         <div className="mt-4 flex">
           <div>
             <h3 className="text-sm text-gray-700">
-           Extensive Resources
+            Protection Against Retaliation
             </h3>
-            <p className="mt-1 text-sm text-gray-500">Our firm utilizes advanced investigative tools to build a strong case.</p>
+            <p className="mt-1 text-sm text-gray-500">We ensure your rights are protected and take legal action against any employer retaliation.</p>
           </div>
          
         </div>
@@ -210,9 +209,9 @@ export default function investmentFraudLawyerOrangeCounty() {
         <div className="mt-4 flex">
           <div>
             <h3 className="text-sm text-gray-700">
-           Transparent Communication
+            Local Expertise in Los Angeles and San Francisco
             </h3>
-            <p className="mt-1 text-sm text-gray-500">We keep you informed throughout the legal process</p>
+            <p className="mt-1 text-sm text-gray-500">With offices serving Los Angeles and San Francisco, we provide tailored legal strategies for whistleblowers in California.</p>
           </div>
          
         </div>
@@ -221,7 +220,8 @@ export default function investmentFraudLawyerOrangeCounty() {
       
         <div className="mt-4 flex">
           <div>
-            <p className="mt-1 text-sm text-gray-500">When you work with us, you’re partnering with a team that truly understands the complexities of investment fraud cases in Orange County.</p>
+            <h3 className="text-sm text-gray-700">Discreet and Compassionate Representation</h3>
+            <p className="mt-1 text-sm text-gray-500">We handle all cases with the utmost confidentiality and provide empathetic support throughout the process.</p>
           </div>
          
         </div>
@@ -245,7 +245,7 @@ export default function investmentFraudLawyerOrangeCounty() {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
     >
-      <h3 className="font-medium text-lg">What is investment fraud?</h3>
+      <h3 className="font-medium text-lg">What is the SEC whistleblower program?</h3>
 
       <svg
         className="w-5 shrink-0 transition duration-300 group-open:-rotate-180"
@@ -259,7 +259,7 @@ export default function investmentFraudLawyerOrangeCounty() {
     </summary>
 
     <p className="mt-4 px-4 leading-relaxed text-gray-700">
-    Investment fraud involves deceptive practices, such as Ponzi schemes or misrepresentation, leading to financial losses. Contacting an investment fraud lawyer in Orange County can help you recover damages.
+    The SEC whistleblower program encourages individuals to report securities law violations by offering financial incentives and protection against retaliation.
     </p>
   </details>
 
@@ -267,7 +267,7 @@ export default function investmentFraudLawyerOrangeCounty() {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
     >
-      <h3 className="font-medium text-lg">How can a securities fraud lawyer help me?</h3>
+      <h3 className="font-medium text-lg">How can a securities whistleblower lawyer in San Francisco help me?</h3>
 
       <svg
         className="w-5 shrink-0 transition duration-300 group-open:-rotate-180"
@@ -281,14 +281,14 @@ export default function investmentFraudLawyerOrangeCounty() {
     </summary>
 
     <p className="mt-4 px-4 leading-relaxed text-gray-700">
-    A securities fraud lawyer in Orange County will assess your case, gather evidence, and represent you in claims against fraudulent brokers or advisors.
+    A lawyer ensures your claim is properly filed, protects your identity, and maximizes your chances of receiving an award. Contact Baldwin Mader Law Group for more information.
     </p>
   </details>
   <details className="group [&_summary::-webkit-details-marker]:hidden">
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
     >
-      <h3 className="font-medium text-lg">What are common signs of stockbroker fraud?</h3>
+      <h3 className="font-medium text-lg">What kinds of cases qualify for SEC whistleblower claims?</h3>
 
       <svg
         className="w-5 shrink-0 transition duration-300 group-open:-rotate-180"
@@ -302,14 +302,14 @@ export default function investmentFraudLawyerOrangeCounty() {
     </summary>
 
     <p className="mt-4 px-4 leading-relaxed text-gray-700">
-    Unusual account activity, unauthorized trades, and unexplained losses are common signs. Consult a stockbroker fraud lawyer in Orange County to investigate further.
+    Common cases include insider trading, Ponzi schemes, accounting fraud, and market manipulation. Get in touch with us to discuss.
     </p>
   </details>
   <details className="group [&_summary::-webkit-details-marker]:hidden">
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
     >
-      <h3 className="font-medium text-lg">What types of damages can I recover?</h3>
+      <h3 className="font-medium text-lg">How are whistleblowers rewarded?</h3>
 
       <svg
         className="w-5 shrink-0 transition duration-300 group-open:-rotate-180"
@@ -323,14 +323,14 @@ export default function investmentFraudLawyerOrangeCounty() {
     </summary>
 
     <p className="mt-4 px-4 leading-relaxed text-gray-700">
-    You may recover financial losses, legal costs, and in some cases, punitive damages.
+    Whistleblowers may receive 10-30% of the monetary sanctions collected in cases where their information leads to successful enforcement actions.
     </p>
   </details>
   <details className="group [&_summary::-webkit-details-marker]:hidden">
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
     >
-      <h3 className="font-medium text-lg">How do I get started with my case?</h3>
+      <h3 className="font-medium text-lg">How do I start my case with Baldwin Mader Law Group?</h3>
 
       <svg
         className="w-5 shrink-0 transition duration-300 group-open:-rotate-180"
@@ -344,52 +344,13 @@ export default function investmentFraudLawyerOrangeCounty() {
     </summary>
 
     <p className="mt-4 px-4 leading-relaxed text-gray-700">
-    Schedule a consultation with Baldwin Law Group to discuss your situation and explore your legal options.
+    Contact us for a confidential consultation. We’ll evaluate your case and guide you through every step of the whistleblower claim process.
     </p>
   </details>
 </div>
       </div>
     </section>
-    <section className="pt-1 pb-16">
-      <div className="container">
-        <div className="grid lg:grid-cols-2 gap-6 sm:gap-20 lg:gap-10">
-          <motion.div
-            className="flex flex-col lg:py-6 order-2 lg:order-1"
-            initial="initial"
-            whileInView="animate"
-            viewport={{ once: true }}
-            exit="exit"
-            variants={motionVariants.fadeUp(40)}
-            transition={{ duration: 0.5, delay: 0.2 }}>
-            <Title
-              title="Ready to Reclaim Your Financial Security?"
-            />
-            <p className="mb-2">
-            Don’t let investment fraud derail your future. With Baldwin Law Group, you have experienced legal professionals by your side, ready to fight for your rights and recover your losses. Take the first step toward justice today—schedule a free consultation with our trusted investment fraud lawyers in Orange County. Call us now or fill out our online contact form to get started.
-            </p>
-           <p className="mb-2"><i>Take Control of Your Financial Future – Contact Us Today!</i></p>
-           <p className="mb-2">For trusted guidance and support, contact Baldwin Law Group today!</p>
-
-            <div className="flex gap-2 sm:gap-4 flex-wrap">
-              <Link href="/contact-us" className="btn-after !text-black">
-                Contact Us
-              </Link>
-            </div>
-          </motion.div>
-          <div className="flex w-full relative mx-auto max-w-xl min-h-[250px] sm:min-h-[350px] order-1 lg:order-2">
-            <div className="flex w-full whitespace-nowrap relative">
-              <Image
-                  src="/images/hero/image-21.jpg"
-                alt="about"
-                className="h-full w-full min-h-[200px]"
-                imageClassName="object-cover"
-              />
-            </div>
-           
-          </div>
-        </div>
-      </div>
-    </section>
+   
  
     </Layout>
   );
