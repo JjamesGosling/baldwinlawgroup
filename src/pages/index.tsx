@@ -7,8 +7,8 @@ export default function home() {
   return (
     <Layout>
       <SEO
-      title={`Baldwin Mader Law Group: California's Leading Law Firm | ${INFO.companyName}`}
-      description={`Baldwin Mader Law Group is California's premier law firm specializing in securities litigation and investment fraud, providing expert legal representation and trusted counsel....
+      title={`Top California Securities Law Firm  | ${INFO.companyName}`}
+      description={`Baldwin Mader Law Group – A trusted California securities law firm in Manhattan Beach, providing expert legal counsel on securities litigation, compliance, and regulatory matters. Contact us today!
 `}
       />
       <HomePage />
