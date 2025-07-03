@@ -56,7 +56,7 @@ const Footer = () => {
           </div>
           <div className="col-span-2 sm:col-span-1 sm:max-w-xs xl:max-w-sm">
             <p className=" uppercase text-xl mb-5 font-semibold text-white">
-              Services
+              Practice Areas
             </p>
             <ul className="grid grid-cols-2 sm:grid-cols-1 gap-x-14">
               
@@ -88,12 +88,12 @@ const Footer = () => {
                 <a href="/law-firm-regulatory-compliance">
                   Law Firm Regulatory Compliance
                 </a>
-              </li> */}
+              </li> 
               <li className="mb-4 text-gray-300 linkHover text-base hover:text-primary transition-colors duration-300">
                 <a href="/investment-fraud-lawyer">
                 Investment Fraud Lawyer
                 </a>
-              </li>
+              </li>*/}
              
             </ul>
           </div>

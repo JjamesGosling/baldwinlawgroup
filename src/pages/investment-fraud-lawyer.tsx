@@ -12,15 +12,9 @@ import { useEffect, useRef, useState } from "react";
 import ContactForm from "../sections/contactPage/ContactForm";
 
 const heroSliderImages = [
-    // "/images/hero/image-20.jpg",
-  // "/images/hero/image-1.png",
-  // "/images/hero/test-4.jpg",
   "/images/hero/image-14.jpg",
-  // "/images/hero/image-18.jpg",
-  // "/images/hero/image-19.jpg",
   "/images/hero/image-21.jpg",
   "/images/hero/image-22.jpg",
-  // "/images/hero/hero-slide-01.webp",
 ];
 export default function InvestmentFraudLawyer() {
   const [activeSlide, setActiveSlide] = useState(-1);
@@ -40,8 +34,8 @@ export default function InvestmentFraudLawyer() {
   };
   return (
     <Layout>
-      <SEO title={`Trusted Investment & Securities Fraud Lawyers in California | ${INFO.companyName}`}
-        description={`Need expert legal help for investment fraud or securities fraud in California? Baldwin Mader Law Group specializes in stockbroker fraud cases. Visit us at 516 North Sepulveda Boulevard, Manhattan Beach, CA. Call now for trusted legal representation!
+      <SEO title={`Investment & Securities Fraud Lawyers & Attorney Near me | California `}
+        description={`Looking for trusted investment or securities fraud lawyers near you in California? Baldwin Mader Law Group offers experienced legal help for stockbroker fraud. Visit us in Manhattan Beach or call today for a consultation.
 `}
       />
        <section className="relative z-10 -mt-[128px]">
@@ -91,7 +85,7 @@ export default function InvestmentFraudLawyer() {
                 variants={motionVariants.fadeUp(40)}
                 transition={{ duration: 0.5, delay: 0.1 }}
               >
-              Investment Fraud Attorney – Recovering Your Losses from Securities Fraud
+              Investment Fraud Attorney California
               </motion.h1>
 
               <motion.p
@@ -103,7 +97,8 @@ export default function InvestmentFraudLawyer() {
                 variants={motionVariants.fadeUp(40)}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-            Investing in your future is a significant decision. Unfortunately, not everyone operates with integrity in the financial world. If you suspect you have been the victim of investment fraud or financial misconduct, Baldwin Mader Law Group is here to help. Our dedicated securities fraud attorney team has extensive experience holding perpetrators accountable and recovering your losses.
+           Lost money due to a dishonest broker or investment scheme? We can help. <br />
+           Baldwin Mader Law Group specializes in investment fraud and securities litigation, proudly serving clients throughout California. With over 70 years of combined experience, our attorneys represent defrauded investors in FINRA arbitration, state court, and federal court—working tirelessly to recover losses and hold negligent financial professionals accountable.
               </motion.p>
 
              
@@ -153,16 +148,20 @@ export default function InvestmentFraudLawyer() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
              <Title
-              title="Investment Fraud Lawyer – SEC & FINRA Securities Law Firm in California"
+              title="Who We Help"
               left
             />
            
             <p className="mb-2">
-            Investment fraud can happen to anyone, even the most informed and careful investors. Fraudulent schemes often appear as legitimate opportunities. They promise high returns with minimal risk, which can be difficult to recognize until losses mount. 
+           We represent clients across California who’ve been harmed by unethical or negligent financial professionals. Our clients include:
             </p>
-            <p className="mb-2">Being a boutique law firm in California, Baldwin Mader Law Group has carved out a niche practice in the securities market. Our investment fraud lawyer California team brings over 70 years of collective experience to help clients recover their losses, pursuing claims with rigorous attention to detail and a commitment to achieving justice for those impacted by deceptive investment practices.</p>
-            <p className="mb-2">If you have been defrauded by an investment company, contact our securities fraud lawyer right away. Let Baldwin Mader Law Group fight aggressively for you and recover your losses. We are ready to fight for your rights and recover losses before FINRA (Federal Investment Regulatory Authority) and in federal and state courts throughout the state of California. Get in touch and talk to our stockbroker fraud lawyer in California today.</p>
-           
+            <p className="mb-3">Individual investors and retirees</p>
+            <p className="mb-3">Business owners and entrepreneurs</p>
+            <p className="mb-3">Trusts and estates</p>
+            <p className="mb-3">Institutional investors</p>
+           <p className="mb-2">
+           Whether you lost savings, retirement funds, or capital due to fraud, we’re ready to help.
+            </p>
             <div className="flex gap-2 sm:gap-4 flex-wrap">
               <Link href="/contact-us" className="btn-after !text-black">
                 Contact Us
@@ -177,89 +176,41 @@ export default function InvestmentFraudLawyer() {
       <div className="container">
       <div className="bg-white">
   <div className="mx-auto max-w-2xl px-4 py-1 sm:px-6 sm:py-2 lg:max-w-7xl lg:px-8">
-  <Title title="Why Choose Our Securities Fraud Lawyer in California?" className="text-center"/>
- <p className="mb-6 text-center">Choosing the right securities fraud lawyer will make and break your investment fraud case. Here’s why we believe Baldwin Mader Law Group stands out in California:</p>
-    <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 lg:grid-cols-3 xl:gap-x-8 content-center justify-center">
-    <div className="group relative">
-      
-      <div className="mt-4 flex">
-        <div>
-          <h3 className="text-sm text-gray-700">
-          Unmatched Experience in Securities Litigation  
-          </h3>
-          <p className="mt-1 text-sm text-gray-500">Our stockbroker fraud lawyer team brings 70 years of combined experience handling complex securities litigation and arbitration cases.
-
-          </p>
-        </div>
-       
-      </div>
-    </div>
-      <div className="group relative">
-      
-        <div className="mt-4 flex">
-          <div>
-            <h3 className="text-sm text-gray-700">
-            Specialized Focus on Investment Fraud  
-            </h3>
-            <p className="mt-1 text-sm text-gray-500">Our focus is solely on investment fraud cases. We are well aware of the tactics often used to deceive investors.</p>
-          </div>
-         
-        </div>
-      </div>
-      <div className="group relative">
-      
-        <div className="mt-4 flex">
-          <div>
-            <h3 className="text-sm text-gray-700">
-            Thorough Investigation and Analysis  
-            </h3>
-            <p className="mt-1 text-sm text-gray-500">We perform in-depth investigations to uncover every detail, allowing us to present a strong case on behalf of our clients.
-</p>
-          </div>
-         
-        </div>
-      </div>
-      <div className="group relative">
-      
-        <div className="mt-4 flex">
-          <div>
-            <h3 className="text-sm text-gray-700">
-            Successful Track Record in Loss Recovery   
-            </h3>
-            <p className="mt-1 text-sm text-gray-500">Our boutique firm has a history of helping clients recover significant portions of their lost investments and ensuring justice is achieved.</p>
-          </div>
-         
-        </div>
-      </div>
-      <div className="group relative">
-      
-        <div className="mt-4 flex">
-          <div>
-            <h3 className="text-sm text-gray-700">
-            Dedicated Client Support     
-            </h3>
-            <p className="mt-1 text-sm text-gray-500">We understand the personal and financial stress caused by fraud. To counter this, we provide empathetic, responsive client service.</p>
-          </div>
-         
-        </div>
-      </div>
-      <div className="group relative">
-      
-        <div className="mt-4 flex">
-          <div>
-            <h3 className="text-sm text-gray-700">
-            Aggressive Pursuit of Justice      
-            </h3>
-            <p className="mt-1 text-sm text-gray-500">Our approach is aggressive, determined, and results-oriented, ensuring we advocate fiercely for our clients’ rights in court or arbitration.</p>
-          </div>
-         
-        </div>
-      </div>
-      
-      
-      
-      
-    </div>
+  <Title title="Types of Investment Fraud We Handle" className="text-center"/>
+ <p className="mb-6 text-center">Investment fraud can take many forms—often disguised as legitimate opportunities. Our firm handles a wide range of cases, including:</p>
+     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-0">
+      <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> <a href="https://baldwinlawgroup.com/ponzi-scheme-law-firm">Ponzi and pyramid schemes</a>
+            </div>
+      <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Misrepresentation or omissions
+            </div>
+      <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Unsuitable investment recommendations
+            </div>
+      <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Excessive trading (churning)
+            </div>
+      <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Unauthorized trading
+            </div>
+      <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Breach of fiduciary duty
+            </div>
+      <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Variable annuity fraud
+            </div>
+      <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Private placement fraud
+            </div>
+      <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Margin abuse
+            </div>
+      <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Failure to supervise
+            </div>
+     </div>
+     <p className="mb-6 text-center">We investigate the details and pursue every avenue for financial recovery.</p>
   </div>
 </div>
       </div>
@@ -277,12 +228,20 @@ export default function InvestmentFraudLawyer() {
             variants={motionVariants.fadeUp(40)}
             transition={{ duration: 0.5, delay: 0.2 }}>
             <Title
-              title="Recover from Investment Fraud with Baldwin Mader Law Group."
+              title="How We Help You Recover"
             />
             <p className="mb-2">
-            Investment fraud is an emotionally charged experience. The betrayal of trust, coupled with financial losses, can leave you feeling helpless. If you have been a victim of investment fraud, Baldwin Mader Law Group is here to represent you and fight for swift justice. Our dedicated stockbroker fraud attorney team has a proven track record of success, recovering substantial amounts for our clients who have been victims of investment fraud.
+            Investment fraud is more than a financial loss—it’s a betrayal of trust. Our team works to:
             </p>
-           <p className="mb-2">With a deep understanding of complex investment products, we are relentless in pursuing justice for our clients. We will thoroughly investigate your situation, analyze investments, and build a strong case to recover your losses through arbitration or litigation. Let Baldwin Mader Law Group help you throughout the legal process, hold the perpetrators accountable, and recover from investment fraud. Contact us today to discuss your needs.</p>
+           <ol className="mb-2">
+            <li><strong>Analyze Investment Activity</strong><br />
+We review your portfolio, trades, and communications to identify red flags, excessive fees, or misconduct.</li>
+<li><strong>Hold Parties Accountable</strong><br />
+We pursue claims against advisors, brokers, firms, and any third parties involved in the scheme.</li>
+<li><strong>Recover Your Losses</strong><br />
+We seek restitution through arbitration, settlement, or litigation—depending on what’s best for your case.</li>
+
+           </ol>
 
             <div className="flex gap-2 sm:gap-4 flex-wrap">
               <Link href="/contact-us" className="btn-after !text-black">
@@ -304,7 +263,120 @@ export default function InvestmentFraudLawyer() {
         </div>
       </div>
     </section>
- 
+ <section className="py-8">
+      <div className="container">
+        <div className="grid xl:grid-cols-2 gap-6 sm:gap-40 lg:gap-16">
+          <div className="flex w-full relative mx-auto max-w-xl min-h-[250px] sm:min-h-[350px]">
+            <div className="flex w-full whitespace-nowrap relative">
+              
+              <Image
+                src="/images/about/image-16.jpg"
+                alt="about"
+                className="h-full w-full min-h-[200px]"
+                imageClassName="object-cover"
+              />
+            </div>
+          </div>
+          <motion.div
+            className="flex flex-col pb-0 lg:pt-10"
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+            exit="exit"
+            variants={motionVariants.fadeUp(40)}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+             <Title
+              title="Why Choose Baldwin Mader Law Group"
+              left
+            />
+           
+           <ol className="mb-4">
+            <li><strong>Exclusive Focus on Securities Law</strong>
+We handle securities fraud and broker misconduct cases only—and we’ve done it for decades. </li>
+<li><strong>Proven Track Record</strong>
+We’ve helped clients recover substantial losses from negligent and fraudulent investment activity. </li>
+<li><strong>Detailed Case Investigation</strong>
+Every case starts with a thorough review of your accounts and investment history to build a strong, evidence-backed strategy. </li>
+<li><strong>Compassionate, Confidential Support</strong>
+We understand how devastating fraud can be. Our team offers respectful, judgment-free guidance from start to finish. </li>
+<li><strong>Aggressive Representation</strong>
+Whether in FINRA arbitration or court, we fight relentlessly to protect your interests. </li>
+
+           
+           </ol>
+            <div className="flex gap-2 sm:gap-4 flex-wrap">
+              <Link href="/contact-us" className="btn-after !text-black">
+                Contact Us
+              </Link>
+            </div>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+    <section className="py-4">
+      <div className="container">
+         <Title
+              title="Serving Clients Across California"
+               subTitle="Baldwin Mader Law Group represents clients throughout California, including:"
+              center
+            />
+      </div>
+      <div className="container justify-center flex">
+        <div className="bg-white rounded-2xl shadow-lg p-6 max-w-4xl w-full">
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-0">
+            
+            <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Los Angeles
+            </div>
+            <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> San Francisco
+            </div>
+            <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> San Diego
+            </div>
+
+            
+            <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Sacramento
+            </div>
+            <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Orange County
+            </div>
+            <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> San Jose
+            </div>
+
+           
+            <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Fresno
+            </div>
+            <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Riverside
+            </div>
+            <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Long Beach
+            </div>
+            
+        </div>
+        </div>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6511999.225806154!2d-124.60470710820825!3d37.16013847628053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia%2C%20USA!5e0!3m2!1sen!2s!4v1751577836514!5m2!1sen!2s"  height="450" className="border-none w-full mt-3 mb-3"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+      <p className="text-center">We also represent clients in nationwide FINRA arbitration.</p>
+    </section>
+    <section className="padding-y bg-slate-100">
+      <div className="container">
+        <div className="text-center mb-6">
+          <Title
+              title="Talk to Us"
+              center
+            />
+            <p>If you suspect investment fraud or have already suffered financial loss, don’t wait. Contact Baldwin Mader Law Group for a confidential consultation. We’ll review your case, explain your options, and help you take the first step toward recovery.</p>
+            <p className="text-4xl my-6 text-primary font-bold">Call  <a href="tel:310-363-2031">310-363-2031</a></p>
+        </div>
+        <ContactForm />
+      </div>
+    </section>
     <section className="padding-y">
       <div className="container">
       <Title
@@ -316,7 +388,7 @@ export default function InvestmentFraudLawyer() {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
     >
-      <h3 className="font-medium text-lg">What are some warning signs that might indicate investment fraud?</h3>
+      <h3 className="font-medium text-lg">What are signs of investment fraud?</h3>
 
       <svg
         className="w-5 shrink-0 transition duration-300 group-open:-rotate-180"
@@ -329,16 +401,19 @@ export default function InvestmentFraudLawyer() {
       </svg>
     </summary>
 
-    <p className="mt-4 px-4 leading-relaxed text-gray-700">
-    There are many warning signs to look out for when it comes to investment fraud. Common warning signs include unrealistic promises of high returns with little to no risk, pressure to invest quickly, difficulty accessing your invested funds, and complex or unclear investment strategies.
-    </p>
+    <ul className="mt-4 px-4 leading-relaxed text-gray-700">
+    <li>Promises of guaranteed or unusually high returns</li>
+<li>Pressure to invest quickly</li>
+<li>Lack of transparency or vague explanations</li>
+<li>Difficulty accessing your funds</li>
+    </ul>
   </details>
 
   <details className="group [&_summary::-webkit-details-marker]:hidden">
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
     >
-      <h3 className="font-medium text-lg">What should I do if I suspect I’ve been a victim of investment fraud?</h3>
+      <h3 className="font-medium text-lg">What should I do if I suspect fraud?</h3>
 
       <svg
         className="w-5 shrink-0 transition duration-300 group-open:-rotate-180"
@@ -352,14 +427,14 @@ export default function InvestmentFraudLawyer() {
     </summary>
 
     <p className="mt-4 px-4 leading-relaxed text-gray-700">
-    It’s crucial to act quickly. Stop investing any further funds and gather evidence such as account statements, marketing materials, and communication records with the broker or advisor. The sooner you contact an experienced investment fraud lawyer, the better chance you have of recovering your losses.
+   Stop investing immediately. Save all documents—statements, emails, brochures—and contact an investment fraud attorney right away.
     </p>
   </details>
   <details className="group [&_summary::-webkit-details-marker]:hidden">
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
     >
-      <h3 className="font-medium text-lg">Can I get my money back if I was involved in a Ponzi scheme?</h3>
+      <h3 className="font-medium text-lg">Can I recover losses from a Ponzi scheme?</h3>
 
       <svg
         className="w-5 shrink-0 transition duration-300 group-open:-rotate-180"
@@ -373,14 +448,14 @@ export default function InvestmentFraudLawyer() {
     </summary>
 
     <p className="mt-4 px-4 leading-relaxed text-gray-700">
-    While there’s no guarantee, experienced legal representation can significantly increase your chances. We explore various legal options like pursuing claims against the perpetrator, financial institutions that facilitated the fraud, or potentially filing claims with regulatory bodies like the SEC.
+    Yes. We may pursue claims against the fraudster, related institutions, or through regulators like the SEC.
     </p>
   </details>
   <details className="group [&_summary::-webkit-details-marker]:hidden">
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
     >
-      <h3 className="font-medium text-lg">How long will it take to recover my investment losses?</h3>
+      <h3 className="font-medium text-lg">How long does recovery take?</h3>
 
       <svg
         className="w-5 shrink-0 transition duration-300 group-open:-rotate-180"
@@ -394,14 +469,14 @@ export default function InvestmentFraudLawyer() {
     </summary>
 
     <p className="mt-4 px-4 leading-relaxed text-gray-700">
-    The timeframe can vary depending on the complexity of the case and the available assets. However, our team will provide a more specific estimate based on your situation during a consultation.
+    Each case is different. We’ll give you a personalized estimate after reviewing your case, our team will provide a more specific estimate based on your situation during a consultation.
     </p>
   </details>
   <details className="group [&_summary::-webkit-details-marker]:hidden">
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
     >
-      <h3 className="font-medium text-lg">What if I feel embarrassed or ashamed about being a victim of investment fraud?</h3>
+      <h3 className="font-medium text-lg">I feel ashamed about being defrauded. What should I do?</h3>
 
       <svg
         className="w-5 shrink-0 transition duration-300 group-open:-rotate-180"
@@ -415,7 +490,7 @@ export default function InvestmentFraudLawyer() {
     </summary>
 
     <p className="mt-4 px-4 leading-relaxed text-gray-700">
-    Investment fraudsters are skilled at manipulating people. There’s no shame in falling victim to their schemes. Our team understands the emotional toll fraud takes and will treat you with empathy and respect throughout the legal process.
+    You’re not alone. Fraudsters target even the most financially savvy. We offer judgment-free, confidential support focused on helping you recover.
     </p>
   </details>
 </div>

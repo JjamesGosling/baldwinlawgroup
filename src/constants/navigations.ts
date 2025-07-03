@@ -12,7 +12,7 @@ export default [
   {
     id: "practice-area",  // Corrected the typo here
     title: "Practice Area",
-    href: "#",
+    href: "practice-area",
     submenu: [
       {
         id: "securities-litigation-attorney",

@@ -142,21 +142,7 @@ const Header = ({ topHeader = true }: { topHeader?: boolean; }) => {
                         </ul>
                       )}
                     </li>
-                    {/* Mobile Menu Submenu Direct Show */}
-                    {item.submenu && (
-                      <ul className="flex flex-col mt-2 lg:hidden">
-                        {item.submenu.map((subItem) => (
-                          <li key={subItem.id}>
-                            <Link
-                              href={subItem.href}
-                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary"
-                            >
-                              {subItem.title}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    )}
+                    
                   </React.Fragment>
                 ))}
                 <li className='relative group py-3'>

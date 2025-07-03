@@ -70,14 +70,29 @@ const Sidebar = ({ isScrolled }: any) => {
           <h6 className="mb-2">Links</h6>
 
           {navigations.map((item) => (
-            <>
+            <div>
            <Link
            key={item.id}
            href={item.href}
-           className="text-sm font-normal leading-6 text-gray-900">
+           className="text-sm font-normal leading-6 text-gray-900 hover:text-primary">
            {item.title}
+           {/* Mobile Menu Submenu Direct Show */}
+                               {item.submenu && (
+                                 <ul className="flex flex-col mt-2">
+                                   {item.submenu.map((subItem) => (
+                                     <li key={subItem.id}>
+                                       <Link
+                                         href={subItem.href}
+                                         className="block px-4 py-2 text-sm text-gray-900  hover:text-primary"
+                                       >
+                                         {subItem.title}
+                                       </Link>
+                                     </li>
+                                   ))}
+                                 </ul>
+                               )}
          </Link>
-          </>
+          </div>
         ))}
           <div className="flex flex-col py-6">
             <h6 className="mb-4">Contact Us</h6>

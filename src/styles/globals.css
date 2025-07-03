@@ -154,7 +154,7 @@ a {
 }
 
 .padding-y {
-  @apply py-10 sm:py-16 lg:py-[4.5rem];
+  @apply py-4 sm:py-8 lg:py-[2.5rem];
 }
 
 .padding-t {

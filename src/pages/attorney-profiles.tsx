@@ -6,7 +6,7 @@ import AttorneyProfilesPage from "@/sections/attorneyProfilesPage";
 export default function AttorneyProfiles() {
   return (
     <Layout>
-      <SEO title={`Recent Results | ${INFO.companyName}`} />
+      <SEO title={`Attornry Profiles | ${INFO.companyName}`} />
       <AttorneyProfilesPage />
     </Layout>
   );

@@ -11,15 +11,9 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import ContactForm from "../sections/contactPage/ContactForm";
 const heroSliderImages = [
-  // "/images/hero/image-20.jpg",
-  // "/images/hero/image-1.png",
-  // "/images/hero/test-4.jpg",
   "/images/hero/image-14.jpg",
-  // "/images/hero/image-18.jpg",
-  // "/images/hero/image-19.jpg",
   "/images/hero/image-21.jpg",
   "/images/hero/image-22.jpg",
-  // "/images/hero/hero-slide-01.webp",
 ];
 export default function SecuritiesLitigationAttorney() {
   const [activeSlide, setActiveSlide] = useState(-1);
@@ -39,9 +33,8 @@ export default function SecuritiesLitigationAttorney() {
   };
   return (
     <Layout>
-      <SEO title={`Securities Litigation & Fraud Attorney California
- | ${INFO.companyName}`}
-        description={`Need a trusted securities litigation or fraud attorney in California? Baldwin Mader Law Group specializes in expert legal representation. Contact us today....`}
+      <SEO title={`Securities Litigation & Fraud Attorney Near me | California`}
+        description={`Looking for a securities litigation or fraud attorney near you in California? Baldwin Mader Law Group offers trusted, expert legal representation—contact us today.`}
       />
        <section className="relative z-10 -mt-[128px]">
       <div className="relative isolate overflow-hidden min-h-[calc(100vh+10px)] flex flex-col">
@@ -91,8 +84,7 @@ export default function SecuritiesLitigationAttorney() {
                 variants={motionVariants.fadeUp(40)}
                 transition={{ duration: 0.5, delay: 0.1 }}
               >
-               Baldwin Mader Law Group – <br className="sm:block hidden" /> Protecting Your Interests in <br className="sm:block hidden" /> Securities
-                Litigation and Arbitration
+               Securities Litigation & Arbitration Lawyer in California
               </motion.h1>
 
               <motion.p
@@ -104,10 +96,8 @@ export default function SecuritiesLitigationAttorney() {
                 variants={motionVariants.fadeUp(40)}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-               Baldwin Mader Law Group is a leading securities litigation law firm with over 70 years of combined 
-experience representing victims of investment fraud. Our seasoned securities litigation attorney team 
-has a successful track record of recovering millions of dollars in hundreds of cases for individuals and 
-institutions
+               Baldwin Mader Law Group is a California-based law firm specializing in securities litigation and arbitration. With over 70 years of combined experience, we help individuals and institutions recover losses caused by securities fraud, broker misconduct, and investment disputes. Our skilled attorneys have secured millions in settlements and awards for clients across California and beyond. <br/>
+               If you believe you’ve been a victim of investment fraud, contact us to discuss your case and explore your options.
               </motion.p>
 
              
@@ -162,26 +152,19 @@ institutions
             variants={motionVariants.fadeUp(40)}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            
+             <Title title="Why Choose Us?" />
+                      
             <p className="mb-6">
-            When you choose Baldwin Mader Law Group as your securities litigation law firm, you benefit from:</p>
-
-            
-            <p className="mb-6">
-            <b>Experienced Team</b> – Our securities litigation attorney team is highly skilled and has extensive 
-experience in complex financial matters.
+            <b>Experienced Team– </b> <a href="https://baldwinlawgroup.com/attorney-profiles" className="underline">Our attorneys</a> are experts in complex financial matters and securities law.
 </p>
             <p className="mb-6">
-            <b>Proven Track Record</b> – We have a history of success in recovering substantial compensation for our 
-clients
+            <b>Proven Results –</b> We have a strong track record of significant recoveries for defrauded investors
 </p>
             <p className="mb-6">
-           <b>Focused Expertise</b> – Our practice is dedicated exclusively to securities litigation, ensuring in-depth 
-knowledge of the relevant laws and regulations.
+           <b>Exclusive Focus –</b> We dedicate our practice solely to securities litigation and arbitration.
 </p>
             <p className="mb-6">
-            <b>Personalized Service</b> – We provide our clients with direct access to our experienced partners, not 
-inexperienced associates.
+            <b>Personalized Service –</b> Clients work directly with seasoned partners, not junior associates.
 </p>
 
             <div className="flex gap-2 sm:gap-4 flex-wrap">
@@ -203,19 +186,16 @@ inexperienced associates.
               title="Cases We Handle"
               center
             />
- <p className="mb-6 text-center">Our securities litigation attorney team handles a wide range of investment fraud and securities 
-misconduct cases. These include:</p>
+ <p className="mb-6 text-center">We litigate a wide range of securities fraud and misconduct cases, including:</p>
     <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 lg:grid-cols-3 xl:gap-x-8 content-center justify-center">
       <div className="group relative">
       
         <div className="mt-4 flex">
           <div>
             <h3 className="text-sm text-gray-700">
-            Securities Class Action and Multi-District Litigation (MDL)
+           Securities Class Actions & Multi-District Litigation (MDL)
             </h3>
-            <p className="mt-1 text-sm text-gray-500">If you have suffered losses due to securities fraud, you may be able to participate in a class action 
-lawsuit or MDL proceeding. Our securities fraud lawyer team has extensive experience representing 
-investors in these complex cases, working to recover compensation for their losses</p>
+            <p className="mt-1 text-sm text-gray-500">Representing investors seeking recovery from large-scale securities fraud.</p>
           </div>
          
         </div>
@@ -225,11 +205,9 @@ investors in these complex cases, working to recover compensation for their loss
         <div className="mt-4 flex">
           <div>
             <h3 className="text-sm text-gray-700">
-            Shareholder Derivative Lawsuits.
+            Shareholder Derivative Lawsuits
             </h3>
-            <p className="mt-1 text-sm text-gray-500">When corporate management engages in misconduct, it can harm the value of shareholders’
-investments. We represent shareholders in derivative lawsuits to hold corporations accountable and 
-recover damages.</p>
+            <p className="mt-1 text-sm text-gray-500">Holding corporate executives accountable for actions harming shareholder value.</p>
           </div>
          
         </div>
@@ -239,11 +217,9 @@ recover damages.</p>
         <div className="mt-4 flex">
           <div>
             <h3 className="text-sm text-gray-700">
-            Corporate Control Disputes
+           Corporate Control Disputes
             </h3>
-            <p className="mt-1 text-sm text-gray-500">In disputes involving corporate control, such as proxy fights and takeover attempts, significant financial 
-interests are at stake. Our securities fraud attorney team advises and represents clients in handling 
-these complex situations to protect their rights</p>
+            <p className="mt-1 text-sm text-gray-500">Advising clients in proxy fights, takeovers, and other high-stakes matters</p>
           </div>
          
         </div>
@@ -253,10 +229,9 @@ these complex situations to protect their rights</p>
         <div className="mt-4 flex">
           <div>
             <h3 className="text-sm text-gray-700">
-            Insider Trading Allegations
+           Insider Trading Allegations
             </h3>
-            <p className="mt-1 text-sm text-gray-500">We investigate and litigate cases 
-involving insider trading, where individuals misuse confidential information for personal gain</p>
+            <p className="mt-1 text-sm text-gray-500">Investigating and litigating misuse of confidential information.</p>
           </div>
          
         </div>
@@ -266,12 +241,9 @@ involving insider trading, where individuals misuse confidential information for
         <div className="mt-4 flex">
           <div>
             <h3 className="text-sm text-gray-700">
-            Securities Fraud Allegations
+           Securities Fraud
             </h3>
-            <p className="mt-1 text-sm text-gray-500">Investment fraud can take many forms, including Ponzi schemes, pump-and-dump schemes, and 
-unsuitable investment recommendations. Our securities fraud lawyer team represents investors who 
-have been victims of these and other fraudulent schemes and seek compensation for their losses and 
-hold the perpetrators accountable</p>
+            <p className="mt-1 text-sm text-gray-500">Handling Ponzi schemes, pump-and-dump scams, and unsuitable investment advice.</p>
           </div>
          
         </div>
@@ -281,11 +253,9 @@ hold the perpetrators accountable</p>
         <div className="mt-4 flex">
           <div>
             <h3 className="text-sm text-gray-700">
-            Accounting Fraud Allegations
+            Accounting Fraud
             </h3>
-            <p className="mt-1 text-sm text-gray-500">Companies that manipulate their financial statements to mislead investors can cause significant harm. 
-We hold companies accountable for accounting fraud through litigation, protecting investors from being 
-deceived by false financial information.</p>
+            <p className="mt-1 text-sm text-gray-500">Pursuing claims against companies that manipulate financial statements to mislead investors.</p>
           </div>
          
         </div>
@@ -295,11 +265,9 @@ deceived by false financial information.</p>
         <div className="mt-4 flex">
           <div>
             <h3 className="text-sm text-gray-700">
-            Initial Public Offering (IPO) Litigation
+            	IPO Litigation
             </h3>
-            <p className="mt-1 text-sm text-gray-500">When a company goes public through an IPO, investors rely on the accuracy and completeness of the 
-offering materials. Our securities litigation attorney team represents investors who are harmed by 
-misrepresentations or omissions in IPO offerings and seek to recover their losses</p>
+            <p className="mt-1 text-sm text-gray-500">Representing investors harmed by misstatements or omissions in IPO materials.</p>
           </div>
          
         </div>
@@ -309,12 +277,9 @@ misrepresentations or omissions in IPO offerings and seek to recover their losse
         <div className="mt-4 flex">
           <div>
             <h3 className="text-sm text-gray-700">
-            Federal Securities Investigations
+           	Federal Securities Investigations
             </h3>
-            <p className="mt-1 text-sm text-gray-500">If you are facing an investigation by the SEC or other regulatory bodies regarding potential securities 
-violations, it is crucial to have experienced legal representation from a securities litigation law firm. Our 
-attorneys advise and represent clients in federal securities investigations, protecting their rights and 
-interests.</p>
+            <p className="mt-1 text-sm text-gray-500">Defending clients in SEC and other regulatory investigations.</p>
           </div>
          
         </div>
@@ -339,20 +304,13 @@ interests.</p>
             variants={motionVariants.fadeUp(40)}
             transition={{ duration: 0.5, delay: 0.2 }}>
             <Title
-              title="How We Protect Your Interests"
+              title="How We Protect You"
             />
             <p className="mb-4">
-            Baldwin Mader Law Group is a securities litigation law firm that is committed to protecting the rights of 
-investors and ensuring that those who commit securities fraud are held accountable. Our securities 
-litigation attorney team has a national reputation for success in complex securities cases, including 
-securities arbitration. 
+            At Baldwin Mader Law Group, we are committed to protecting your rights and holding fraudsters accountable. Our attorneys craft tailored legal strategies and represent clients both in court and through securities arbitration—a faster, cost-effective alternative to traditional litigation 
             </p>
             <p className="mb-4">
-            Our securities arbitration team uses their extensive experience and knowledge to develop effective 
-legal strategies tailored to your unique circumstances. If you suspect you have been the victim of 
-investment fraud, contact Baldwin Mader Law Group today. We offer a free consultation to discuss your 
-situation and explore your legal options. When you work with our securities fraud attorney team, you 
-can be confident that you have skilled and experienced personnel on your side.
+          <strong> Free Consultation:</strong> If you suspect investment fraud, contact us today for a confidential, no-cost case review.
             </p>
 
 
@@ -376,6 +334,56 @@ can be confident that you have skilled and experienced personnel on your side.
         </div>
       </div>
     </section>
+     <section className="py-4">
+      <div className="container">
+         <Title
+              title="Serving Clients Across California"
+               subTitle="Baldwin Mader Law Group represents clients throughout California, including:"
+              center
+            />
+      </div>
+      <div className="container justify-center flex">
+        <div className="bg-white rounded-2xl shadow-lg p-6 max-w-4xl w-full">
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-0">
+            
+            <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Los Angeles
+            </div>
+            <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> San Francisco
+            </div>
+            <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> San Diego
+            </div>
+
+            
+            <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Sacramento
+            </div>
+            <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Orange County
+            </div>
+            <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> San Jose
+            </div>
+
+           
+            <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Fresno
+            </div>
+            <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Riverside
+            </div>
+            <div className="grid-item">
+                <span className="text-green-600 mr-3 text-xl">&#10003;</span> Long Beach
+            </div>
+            
+        </div>
+        </div>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6511999.225806154!2d-124.60470710820825!3d37.16013847628053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia%2C%20USA!5e0!3m2!1sen!2s!4v1751577836514!5m2!1sen!2s"  height="450" className="border-none w-full mt-3 mb-3"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+      <p className="text-center">We also represent clients in nationwide FINRA arbitration.</p>
+    </section>
     <section className="padding-y">
       <div className="container">
       <Title
@@ -384,45 +392,33 @@ can be confident that you have skilled and experienced personnel on your side.
             />
             <div className="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
       <details>
-        <summary className="py-2 outline-none cursor-pointer focus:underline">What is a Securities Litigation Attorney</summary>
+        <summary className="py-2 outline-none cursor-pointer focus:underline">What is a securities litigation attorney?</summary>
         <div className="px-4 pb-4">
-          <p>A securities litigation attorney is a lawyer who specializes in legal issues involving securities, such as 
-private placements, stocks, bonds, and other investments. They represent investors who have suffered 
-losses due to investment fraud, including stockbroker misconduct, unsuitable investment 
-recommendations, and fraudulent Ponzi schemes.</p>
+          <p>A lawyer who specializes in legal disputes related to investments, including fraud, broker misconduct, and misleading financial practices.</p>
         </div>
       </details>
       <details>
-        <summary className="py-2 outline-none cursor-pointer focus:underline">How Can a Securities Fraud Lawyer Help Me?</summary>
+        <summary className="py-2 outline-none cursor-pointer focus:underline">How can a securities fraud lawyer help me?</summary>
         <div className="px-4 pb-4">
-          <p>A securities fraud lawyer can help you recover your investment losses if you have been the victim of 
-fraud. They can investigate your case, gather evidence, negotiate with the responsible party, and 
-represent you in court or arbitration if necessary</p>
+          <p>We investigate your case, gather evidence, negotiate settlements, and pursue litigation or arbitration to recover your losses.</p>
         </div>
       </details>
       <details>
-        <summary className="py-2 outline-none cursor-pointer focus:underline">What is Securities Arbitration?</summary>
+        <summary className="py-2 outline-none cursor-pointer focus:underline">What is securities arbitration?</summary>
         <div className="px-4 pb-4">
-          <p>Securities arbitration is a form of dispute resolution outside of the court system. Securities arbitration 
-can be a faster and more cost-effective way to resolve investment disputes compared to traditional 
-litigation.</p>
+          <p>A streamlined dispute resolution process outside of court, often faster and more efficient for resolving investment disputes.</p>
         </div>
       </details>
       <details>
-        <summary className="py-2 outline-none cursor-pointer focus:underline">What Types of Securities Fraud Does Baldwin Mader Law Group Handle?</summary>
+        <summary className="py-2 outline-none cursor-pointer focus:underline">What types of cases do you handle?</summary>
         <div className="px-4 pb-4">
-          <p>Our securities litigation attorneys handle a wide range of investment fraud cases, including insider 
-trading, accounting fraud, misrepresentations in IPO offerings, Ponzi schemes, and unsuitable 
-investment recommendations</p>
+          <p>We handle insider trading, accounting fraud, Ponzi schemes, IPO misrepresentations, and more.</p>
         </div>
       </details>
       <details>
-        <summary className="py-2 outline-none cursor-pointer focus:underline">Do I Have a Case for Securities Fraud?</summary>
+        <summary className="py-2 outline-none cursor-pointer focus:underline">Do I have a case?</summary>
         <div className="px-4 pb-4">
-          <p>If you suspect you have been the victim of investment fraud, it is important to consult with an 
-experienced securities litigation attorney. We invite you to contact Baldwin Mader Law Group. We can 
-review your situation and advise you on your legal options. During a free consultation, our team can 
-discuss the specifics of your case and determine if you may have grounds for legal action</p>
+          <p>If you suspect investment fraud, contact us for a free consultation. We’ll review your situation and advise you on your legal options.</p>
         </div>
       </details>
      
